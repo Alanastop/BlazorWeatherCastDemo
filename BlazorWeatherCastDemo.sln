@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWeatherCastDemo", "BlazorWeatherCastDemo\BlazorWeatherCastDemo.csproj", "{6EA98AEE-5EC3-47E3-8EE9-EFB46D5B983F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorContacts.Domain", "BlazorContacts.Domain\BlazorContacts.Domain.csproj", "{94A323C6-1494-447F-AE4D-6369D0B53C78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorContacts.Persistence", "BlazorContacts.Persistence\BlazorContacts.Persistence.csproj", "{6917E665-1DA6-4530-A2CE-80AA13C5BEC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorContacts.Application", "BlazorContacts.Application\BlazorContacts.Application.csproj", "{22C0C1EB-AB51-4E42-9442-2A5529366E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorContacts.Infrastructure", "BlazorContacts.Infrastructure\BlazorContacts.Infrastructure.csproj", "{8CD3F3ED-280F-46E6-AF6B-D24E463EA64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorContacts.Common", "BlazorContacts.Common\BlazorContacts.Common.csproj", "{687CC6A0-5FD0-4F47-AAB4-9E8344ADA67C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA98AEE-5EC3-47E3-8EE9-EFB46D5B983F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA98AEE-5EC3-47E3-8EE9-EFB46D5B983F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA98AEE-5EC3-47E3-8EE9-EFB46D5B983F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA98AEE-5EC3-47E3-8EE9-EFB46D5B983F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A323C6-1494-447F-AE4D-6369D0B53C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A323C6-1494-447F-AE4D-6369D0B53C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A323C6-1494-447F-AE4D-6369D0B53C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A323C6-1494-447F-AE4D-6369D0B53C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6917E665-1DA6-4530-A2CE-80AA13C5BEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6917E665-1DA6-4530-A2CE-80AA13C5BEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6917E665-1DA6-4530-A2CE-80AA13C5BEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6917E665-1DA6-4530-A2CE-80AA13C5BEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C0C1EB-AB51-4E42-9442-2A5529366E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C0C1EB-AB51-4E42-9442-2A5529366E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C0C1EB-AB51-4E42-9442-2A5529366E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C0C1EB-AB51-4E42-9442-2A5529366E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD3F3ED-280F-46E6-AF6B-D24E463EA64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD3F3ED-280F-46E6-AF6B-D24E463EA64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD3F3ED-280F-46E6-AF6B-D24E463EA64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD3F3ED-280F-46E6-AF6B-D24E463EA64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687CC6A0-5FD0-4F47-AAB4-9E8344ADA67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687CC6A0-5FD0-4F47-AAB4-9E8344ADA67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687CC6A0-5FD0-4F47-AAB4-9E8344ADA67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687CC6A0-5FD0-4F47-AAB4-9E8344ADA67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1330D0B5-08A1-4E22-BAFE-94EE9E8EABAE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <UserSecretsId>5b13ff38-81e9-497c-80ad-91edcb94b3cf</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.6.1" />
+    <PackageReference Include="MediatR" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorContacts.Domain\BlazorContacts.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
